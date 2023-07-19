@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+.navbar {
+    position: absolute;
+    border-radius: 0px 20px 20px 0px;
+    border: 1px solid #1A1C4D;
+    background: #FFF;
+    width: 360px;
+    height: 100vh;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: -30px;
+}
+
+.title {
+    width: 15vw;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(45%, -60%);
+}
+
+.verticaldiv {
+    width: 319px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    margin-top: 5px;
+}
+
+.navlink {
+    width: 319px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    color: #000;
+    text-align: start;
+    font-size: 22px;
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.navlink:hover {
+    background: #D9D9D9;
+}
+
+.selected {
+    background: #D9D9D9;
+}
+
+.upload {
+    width: 319px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #D9D9D9;
+    color: #000;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download {
+    margin-top: 30px;
+    width: 319px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #F07029;
+    color: #000;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

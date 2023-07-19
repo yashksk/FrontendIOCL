@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Arimo;
+    src: url("/public/fonts/Arimo-Bold.ttf");
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 118px;
+    flex-shrink: 0;
+    background-color: #1A1C4D;
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 20px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    color: #F07029;
+    text-align: center;
+    font-size: 48px;
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.input {
+    border-radius: 10px;
+    border: 1px solid #1A1C4D;
+    background: #FFF;
+    width: 506.773px;
+    margin-top: 20px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #1A1C4D;
+    padding-left: 20px;
+}
+
+.loginButton {
+    margin-top: 20px;
+    border-radius: 20px;
+    background: #D9D9D9;
+    width: 234px;
+    height: 65px;
+    flex-shrink: 0;
+    color: #F07029;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
